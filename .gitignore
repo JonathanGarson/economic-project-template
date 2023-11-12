@@ -3,9 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Distribution / packaging
 build/
 dist/
@@ -81,20 +78,3 @@ target/
 # IDEs
 .idea/
 *.sublime-workspace
-
-# Others
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.seed
-*.ini
-*.json
-*.part
-*.xlsx
-*.xml
-*.yaml
-*.yml
-*.sass-cache
-*.scss-cache
