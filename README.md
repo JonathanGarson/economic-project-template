@@ -43,3 +43,4 @@ It will create automatically in your working directory a folder with the followi
     
 --------
 
+If the structure does not correspond to your needs do not hesitate to propose updates, this is a collaborative project which objective is to ease replication and provide a common structure to economics researches.
