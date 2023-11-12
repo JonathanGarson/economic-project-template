@@ -23,9 +23,9 @@ It will create automatically in your working directory a folder with the followi
     │
     ├── code               <- contains the code, data and output.
     │   ├── data
-    │   │   ├── intermediate   <- Intermediate data that has been transformed.
+    │   │   ├── temp           <- Intermediate data that has been transformed.
     │   │   ├── final          <- The final, canonical data sets for modeling.
-    │   │   ├── raw            <- The original, immutable data dump.
+    │   │   └── raw            <- The original, immutable data dump.
     │   │
     │   ├── notebooks          <- Jupyter notebooks.
     │   │
