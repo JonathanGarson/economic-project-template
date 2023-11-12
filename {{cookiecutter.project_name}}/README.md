@@ -13,7 +13,7 @@
     │
     ├── code                    <- contains the code, data and output.
     │   ├── data
-    │   │   ├── intermediate   <- Intermediate data that has been transformed.
+    │   │   ├── tep-mp   <- Intermediate data that has been transformed.
     │   │   ├── final                <- The final, canonical data sets for modeling.
     │   │   ├── raw                 <- The original, immutable data dump.
     │   │
