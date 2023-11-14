@@ -53,7 +53,7 @@ for folder in folders_to_copy_appendix:
 print("All folders have been copied.")
 
 # We remove the older files
-for file in ["data", "notebooks", "references", "src"]:
+for file in ["data", "notebooks", "references", "src", "output"]:
     if os.path.exists(file):
         shutil.rmtree(file)
 
