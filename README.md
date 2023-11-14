@@ -35,12 +35,16 @@ It will create automatically in your working directory a folder with the followi
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │   
     ├── output             <- Generated outputs.
+    │   │
     │   ├── paper
-    │   │   ├── main           <- contains the main paper in pdf format.
-    │   │   └── latex_files    <- contains the latex files to generate the paper.
+    │   │   ├── figures        <- contains the figures in latex and pdf/png/etc. formats.
+    │   │   ├── files          <- contains the latex files to generate the paper and the paper in pdf format.
+    │   │   └── tables         <- contains the tables in latex and pdf/png/etc. formats.
+    │   │
     │   └── appendix
-    │       ├── main           <- contains the appendix in pdf format.
-    │       └── latex_files    <- contains the latex files to generate the appendix.
+    │       ├── figures        <- contains the figures in latex and pdf/png/etc. formats.
+    │       ├── files          <- contains the latex files to generate the paper and the paper in pdf format.
+    │       └── tables         <- contains the tables in latex and pdf/png/etc. formats.
     │
     ├── src                <- Source code for use in this project.
     ├── __init__.py        <- Makes src a Python module
@@ -50,7 +54,13 @@ It will create automatically in your working directory a folder with the followi
     
 ------------
 
-To format it to a replication format package please use the ```prep_for_replication.py``` code. It will adopt the structure bellow.
+To format it to a replication format package please use the ```prep_for_replication.py``` code as so in the command console:
+
+```
+python prep_for_replication.py
+```
+
+It will adopt the structure bellow.
 
 ------------
 
@@ -58,14 +68,16 @@ To format it to a replication format package please use the ```prep_for_replicat
     │                         "GNU General Public License v3", and "Not open source"
     ├── README.md          <- The top-level README for developers using this project.
     ├── paper
-    │   ├── main           <- contains the main paper in pdf format.
-    │   └── latex_files    <- contains the latex files to generate the paper.
+    │   ├── figures        <- contains the figures in latex and pdf/png/etc. formats.
+    │   ├── files          <- contains the latex files to generate the paper and the paper in pdf format.
+    │   └── tables         <- contains the tables in latex and pdf/png/etc. formats.
     │
     ├── appendix
-    │   ├── main           <- contains the appendix in pdf format.
-    │   └── latex_files    <- contains the latex files to generate the appendix.
+    │    ├── figures        <- contains the figures in latex and pdf/png/etc. formats.
+    │    ├── files          <- contains the latex files to generate the paper and the paper in pdf format.
+    │    └── tables         <- contains the tables in latex and pdf/png/etc. formats.
     │
-    ├── code               <- contains the code, data and output.
+    ├── code                <- contains the code, data and output.
     │   ├── data
     │   │   ├── temp           <- Intermediate data that has been transformed.
     │   │   ├── final          <- The final, canonical data sets for modeling.
