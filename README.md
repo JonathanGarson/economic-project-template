@@ -1,7 +1,7 @@
 # economic-project-template
 This a template for economics research project based on [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) package and [Audrey Feldroy & al](https://github.com/audreyfeldroy/cookiecutter-pypackage/tree/master) work.
 
-If the structure does not correspond to your needs do not hesitate to propose updates, this is a collaborative project which objective is to ease replication and provide a common structure to economics researches.
+If the structure does not correspond to your needs do not hesitate to propose updates, this is a collaborative project which objective is to ease replication and provide a common structure to research in economics.
 
 The code is oriented toward python replication but it works for R, Stata and any economic projects. To use it you just need to do the following command line :
 
