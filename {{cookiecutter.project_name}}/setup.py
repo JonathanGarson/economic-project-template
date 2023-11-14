@@ -5,4 +5,4 @@ setup(
     version='0.1.0',
     packages=find_packages(),
     author='{{ cookiecutter.author_name }}',
-    license='{{ cookiecutter.license }}')
+    license='{{ cookiecutter.open_source_license }}')
