@@ -21,7 +21,8 @@ It will create automatically in your working directory a folder with the followi
 
 ------------
 
-    ├── LICENSE            <- You can choose between "MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", and "Not open source"
+    ├── LICENSE            <- You can choose between "MIT license", "BSD license", "ISC license", "Apache Software License 2.0", 
+    │                         "GNU General Public License v3", and "Not open source"
     ├── README.md          <- The top-level README for developers using this project.
     │
     ├── data
@@ -53,7 +54,8 @@ To format it to a replication format package please use the ```prep_for_replicat
 
 ------------
 
-    ├── LICENSE            <- You can choose between "MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", and "Not open source"
+    ├── LICENSE            <- You can choose between "MIT license", "BSD license", "ISC license", "Apache Software License 2.0", 
+    │                         "GNU General Public License v3", and "Not open source"
     ├── README.md          <- The top-level README for developers using this project.
     ├── paper
     │   ├── main           <- contains the main paper in pdf format.
