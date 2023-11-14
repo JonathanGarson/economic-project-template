@@ -18,7 +18,7 @@
     │   ├── paper
     │   │   ├── main           <- contains the main paper in pdf format.
     │   │   └── latex_files    <- contains the latex files to generate the paper.
-    │   ├── appendix
+    │   └── appendix
     │       ├── main           <- contains the appendix in pdf format.
     │       └── latex_files    <- contains the latex files to generate the appendix.
     │
