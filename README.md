@@ -3,7 +3,7 @@ This a template for economics research project based on [cookiecutter](https://c
 
 If the structure does not correspond to your needs do not hesitate to propose updates, this is a collaborative project which objective is to ease replication and provide a common structure to research in economics.
 
-The code is oriented toward python replication but it works for R, Stata and any economic projects. To use it you just need to do the following command line :
+The code is oriented toward python replication but it works for R, Stata and any economic projects. To use it you just need to execute the following command line :
 
 ```
 pip install cookiecutter #to install the python package
