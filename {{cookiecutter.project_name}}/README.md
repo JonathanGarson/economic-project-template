@@ -22,10 +22,10 @@
     │       ├── main           <- contains the appendix in pdf format.
     │       └── latex_files    <- contains the latex files to generate the appendix.
     │
-    ├── src               <- Source code for use in this project.
-    ├── __init__.py   <- Makes src a Python module
+    ├── src                <- Source code for use in this project.
+    ├── __init__.py        <- Makes src a Python module
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
-    └──  setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    └──  setup.py          <- makes project pip installable (pip install -e .) so src can be imported
     
 ------------

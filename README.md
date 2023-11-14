@@ -1,5 +1,5 @@
 # economic-project-template
-This a template for economics research project based on [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/). It is a free to use template, you will just have to download the license you chose.
+This a template for economics research project based on [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) package and [Audrey Feldroy & al](https://github.com/audreyfeldroy/cookiecutter-pypackage/tree/master) work. It is a free to use template, you will just have to download the license you chose.
 
 The code is oriented toward python replication but it works for R, Stata and any economic projects. To use it you just need to do the following command line :
 
@@ -39,15 +39,15 @@ It will create automatically in your working directory a folder with the followi
     │       ├── main           <- contains the appendix in pdf format.
     │       └── latex_files    <- contains the latex files to generate the appendix.
     │
-    ├── src               <- Source code for use in this project.
-    ├── __init__.py   <- Makes src a Python module
+    ├── src                <- Source code for use in this project.
+    ├── __init__.py        <- Makes src a Python module
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
-    └──  setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    └──  setup.py          <- makes project pip installable (pip install -e .) so src can be imported
     
 ------------
 
-To format it to a replication format package please use the ```pre_for_replication.py``` code. It will adopt the structure bellow.
+To format it to a replication format package please use the ```prep_for_replication.py``` code. It will adopt the structure bellow.
 
 ------------
 
@@ -76,10 +76,10 @@ To format it to a replication format package please use the ```pre_for_replicati
     │   │   └── figures        <- Generated graphics to be used in the paper and appendix.
     │   │
     │   └──  src               <- Source code for use in this project.
-    │         └── __init__.py   <- Makes src a Python module
+    │         └── __init__.py  <- Makes src a Python module
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
-    └──  setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    └──  setup.py          <- makes project pip installable (pip install -e .) so src can be imported
     
 --------
 
