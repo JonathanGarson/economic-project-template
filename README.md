@@ -11,8 +11,8 @@ Note that you might have issues using this way on Windows, to avoid them you can
 
 ```
 python #to turn you terminal into python (to quit just type "quit()")
->>>from cookiecutter.main import cookiecutter
->>>cookiecutter("gh:JonathanGarson//economic-project-template")
+from cookiecutter.main import cookiecutter
+cookiecutter("gh:JonathanGarson//economic-project-template")
 ```
 
 It will create automatically in your working directory a folder with the following structure :
