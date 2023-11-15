@@ -30,6 +30,8 @@ It will create automatically in your working directory a folder with the followi
     │   ├── final          <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
+    ├── litterature        <- papers and manuals on the topics.
+    |
     ├── notebooks          <- Jupyter notebooks.
     │   
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
@@ -93,6 +95,9 @@ It will adopt the structure bellow.
     │   │
     │   └──  src               <- Source code for use in this project.
     │         └── __init__.py  <- Makes src a Python module
+    |
+    ├── litterature        <- papers and manuals on the topics.
+    |
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     └──  setup.py          <- makes project pip installable (pip install -e .) so src can be imported

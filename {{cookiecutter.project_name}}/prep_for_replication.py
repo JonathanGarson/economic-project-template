@@ -15,9 +15,9 @@ for folder in ['code', 'paper', 'appendix']:
 folders_to_copy_code = ['data', 'src', 'notebooks', 'references']
 folders_to_copy_paper = ['./output/paper']
 folders_to_copy_appendix = ['./output/appendix']
+folders_to_copy_litterature = ['./litterature']
 destination_folder_code = 'code'
-destination_folder_paper = './'
-destination_folder_appendix = './'
+main_destination_folder = './'
 
 # Copy each folder
 for folder in folders_to_copy_code:
@@ -34,7 +34,7 @@ for folder in folders_to_copy_paper:
     # Determine the name of the folder
     folder_name = os.path.basename(folder)
     # Create full path for the destination
-    dest_path = os.path.join(destination_folder_paper, folder_name)
+    dest_path = os.path.join(main_destination_folder, folder_name)
 
     # Copy the folder
     shutil.copytree(folder, dest_path)
@@ -44,7 +44,17 @@ for folder in folders_to_copy_appendix:
     # Determine the name of the folder
     folder_name = os.path.basename(folder)
     # Create full path for the destination
-    dest_path = os.path.join(destination_folder_appendix, folder_name)
+    dest_path = os.path.join(main_destination_folder, folder_name)
+
+    # Copy the folder
+    shutil.copytree(folder, dest_path)
+    print(f"Copied {folder} to {dest_path}")
+
+for folder in folders_to_copy_litterature:
+    # Determine the name of the folder
+    folder_name = os.path.basename(folder)
+    # Create full path for the destination
+    dest_path = os.path.join(main_destination_folder, folder_name)
 
     # Copy the folder
     shutil.copytree(folder, dest_path)
@@ -53,7 +63,7 @@ for folder in folders_to_copy_appendix:
 print("All folders have been copied.")
 
 # We remove the older files
-for file in ["data", "notebooks", "references", "src", "output"]:
+for file in ["data", "notebooks", "references", "src", "output", "litterature"]:
     if os.path.exists(file):
         shutil.rmtree(file)
 

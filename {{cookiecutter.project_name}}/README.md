@@ -10,6 +10,7 @@
     │   ├── temp           <- Intermediate data that has been transformed.
     │   ├── final          <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
+    ├── litterature        <- papers and manuals on the topics.
     │
     ├── notebooks          <- Jupyter notebooks.
     │   
